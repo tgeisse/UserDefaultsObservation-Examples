@@ -11,6 +11,21 @@
 		34A8004F2BB48764003323DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A8004E2BB48764003323DB /* ContentView.swift */; };
 		34A800512BB48765003323DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A800502BB48765003323DB /* Assets.xcassets */; };
 		34A800552BB48765003323DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A800542BB48765003323DB /* Preview Assets.xcassets */; };
+		34A8006F2BB48775003323DB /* ContainsExampleFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A8005B2BB48775003323DB /* ContainsExampleFields.swift */; };
+		34A800702BB48775003323DB /* CloudStoreSecondaryKeyValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A8005D2BB48775003323DB /* CloudStoreSecondaryKeyValues.swift */; };
+		34A800712BB48775003323DB /* CloudStoreValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A8005E2BB48775003323DB /* CloudStoreValues.swift */; };
+		34A800722BB48775003323DB /* UserDefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A8005F2BB48775003323DB /* UserDefaultValues.swift */; };
+		34A800732BB48775003323DB /* ExampleFieldDisplayContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A800612BB48775003323DB /* ExampleFieldDisplayContainer.swift */; };
+		34A800742BB48775003323DB /* ExampleFieldInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A800622BB48775003323DB /* ExampleFieldInteraction.swift */; };
+		34A800752BB48775003323DB /* InterfaceNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A800632BB48775003323DB /* InterfaceNumber.swift */; };
+		34A800762BB48775003323DB /* InterfaceRawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A800642BB48775003323DB /* InterfaceRawRepresentable.swift */; };
+		34A800772BB48775003323DB /* InterfaceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A800652BB48775003323DB /* InterfaceString.swift */; };
+		34A800782BB48775003323DB /* CloudStoreForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A800672BB48775003323DB /* CloudStoreForm.swift */; };
+		34A800792BB48775003323DB /* CloudStoreUnpersistedForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A800682BB48775003323DB /* CloudStoreUnpersistedForm.swift */; };
+		34A8007A2BB48775003323DB /* CloudStoreUnpersistedLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A800692BB48775003323DB /* CloudStoreUnpersistedLaunch.swift */; };
+		34A8007B2BB48775003323DB /* UserDefaultForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A8006A2BB48775003323DB /* UserDefaultForm.swift */; };
+		34A8007C2BB48775003323DB /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A8006D2BB48775003323DB /* BackgroundColor.swift */; };
+		34A8007F2BB48786003323DB /* UserDefaultsObservation in Frameworks */ = {isa = PBXBuildFile; productRef = 34A8007E2BB48786003323DB /* UserDefaultsObservation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +35,20 @@
 		34A800502BB48765003323DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34A800522BB48765003323DB /* UserDefaultsObservation_Examples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UserDefaultsObservation_Examples.entitlements; sourceTree = "<group>"; };
 		34A800542BB48765003323DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34A8005B2BB48775003323DB /* ContainsExampleFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainsExampleFields.swift; sourceTree = "<group>"; };
+		34A8005D2BB48775003323DB /* CloudStoreSecondaryKeyValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudStoreSecondaryKeyValues.swift; sourceTree = "<group>"; };
+		34A8005E2BB48775003323DB /* CloudStoreValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudStoreValues.swift; sourceTree = "<group>"; };
+		34A8005F2BB48775003323DB /* UserDefaultValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultValues.swift; sourceTree = "<group>"; };
+		34A800612BB48775003323DB /* ExampleFieldDisplayContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleFieldDisplayContainer.swift; sourceTree = "<group>"; };
+		34A800622BB48775003323DB /* ExampleFieldInteraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleFieldInteraction.swift; sourceTree = "<group>"; };
+		34A800632BB48775003323DB /* InterfaceNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceNumber.swift; sourceTree = "<group>"; };
+		34A800642BB48775003323DB /* InterfaceRawRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceRawRepresentable.swift; sourceTree = "<group>"; };
+		34A800652BB48775003323DB /* InterfaceString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceString.swift; sourceTree = "<group>"; };
+		34A800672BB48775003323DB /* CloudStoreForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudStoreForm.swift; sourceTree = "<group>"; };
+		34A800682BB48775003323DB /* CloudStoreUnpersistedForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudStoreUnpersistedForm.swift; sourceTree = "<group>"; };
+		34A800692BB48775003323DB /* CloudStoreUnpersistedLaunch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudStoreUnpersistedLaunch.swift; sourceTree = "<group>"; };
+		34A8006A2BB48775003323DB /* UserDefaultForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultForm.swift; sourceTree = "<group>"; };
+		34A8006D2BB48775003323DB /* BackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A8007F2BB48786003323DB /* UserDefaultsObservation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +82,10 @@
 		34A8004B2BB48764003323DB /* UserDefaultsObservation Examples */ = {
 			isa = PBXGroup;
 			children = (
+				34A8006E2BB48775003323DB /* Enums */,
+				34A800602BB48775003323DB /* Models */,
+				34A8005C2BB48775003323DB /* Protocols */,
+				34A8006C2BB48775003323DB /* Views */,
 				34A8004C2BB48764003323DB /* UserDefaultsObservation_ExamplesApp.swift */,
 				34A8004E2BB48764003323DB /* ContentView.swift */,
 				34A800502BB48765003323DB /* Assets.xcassets */,
@@ -67,6 +101,64 @@
 				34A800542BB48765003323DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34A8005C2BB48775003323DB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				34A8005B2BB48775003323DB /* ContainsExampleFields.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		34A800602BB48775003323DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				34A8005D2BB48775003323DB /* CloudStoreSecondaryKeyValues.swift */,
+				34A8005E2BB48775003323DB /* CloudStoreValues.swift */,
+				34A8005F2BB48775003323DB /* UserDefaultValues.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34A800662BB48775003323DB /* Example Field Form */ = {
+			isa = PBXGroup;
+			children = (
+				34A800612BB48775003323DB /* ExampleFieldDisplayContainer.swift */,
+				34A800622BB48775003323DB /* ExampleFieldInteraction.swift */,
+				34A800632BB48775003323DB /* InterfaceNumber.swift */,
+				34A800642BB48775003323DB /* InterfaceRawRepresentable.swift */,
+				34A800652BB48775003323DB /* InterfaceString.swift */,
+			);
+			path = "Example Field Form";
+			sourceTree = "<group>";
+		};
+		34A8006B2BB48775003323DB /* Main Layout */ = {
+			isa = PBXGroup;
+			children = (
+				34A800672BB48775003323DB /* CloudStoreForm.swift */,
+				34A800682BB48775003323DB /* CloudStoreUnpersistedForm.swift */,
+				34A800692BB48775003323DB /* CloudStoreUnpersistedLaunch.swift */,
+				34A8006A2BB48775003323DB /* UserDefaultForm.swift */,
+			);
+			path = "Main Layout";
+			sourceTree = "<group>";
+		};
+		34A8006C2BB48775003323DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34A800662BB48775003323DB /* Example Field Form */,
+				34A8006B2BB48775003323DB /* Main Layout */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34A8006E2BB48775003323DB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				34A8006D2BB48775003323DB /* BackgroundColor.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +177,9 @@
 			dependencies = (
 			);
 			name = "UserDefaultsObservation Examples";
+			packageProductDependencies = (
+				34A8007E2BB48786003323DB /* UserDefaultsObservation */,
+			);
 			productName = "UserDefaultsObservation Examples";
 			productReference = 34A800492BB48764003323DB /* UserDefaultsObservation Examples.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +208,9 @@
 				Base,
 			);
 			mainGroup = 34A800402BB48764003323DB;
+			packageReferences = (
+				34A8007D2BB48786003323DB /* XCRemoteSwiftPackageReference "UserDefaultsObservation" */,
+			);
 			productRefGroup = 34A8004A2BB48764003323DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +237,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A800742BB48775003323DB /* ExampleFieldInteraction.swift in Sources */,
+				34A800732BB48775003323DB /* ExampleFieldDisplayContainer.swift in Sources */,
 				34A8004F2BB48764003323DB /* ContentView.swift in Sources */,
+				34A800762BB48775003323DB /* InterfaceRawRepresentable.swift in Sources */,
+				34A8006F2BB48775003323DB /* ContainsExampleFields.swift in Sources */,
+				34A800702BB48775003323DB /* CloudStoreSecondaryKeyValues.swift in Sources */,
 				34A8004D2BB48764003323DB /* UserDefaultsObservation_ExamplesApp.swift in Sources */,
+				34A8007B2BB48775003323DB /* UserDefaultForm.swift in Sources */,
+				34A800772BB48775003323DB /* InterfaceString.swift in Sources */,
+				34A800722BB48775003323DB /* UserDefaultValues.swift in Sources */,
+				34A800712BB48775003323DB /* CloudStoreValues.swift in Sources */,
+				34A800752BB48775003323DB /* InterfaceNumber.swift in Sources */,
+				34A800782BB48775003323DB /* CloudStoreForm.swift in Sources */,
+				34A800792BB48775003323DB /* CloudStoreUnpersistedForm.swift in Sources */,
+				34A8007A2BB48775003323DB /* CloudStoreUnpersistedLaunch.swift in Sources */,
+				34A8007C2BB48775003323DB /* BackgroundColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +471,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34A8007D2BB48786003323DB /* XCRemoteSwiftPackageReference "UserDefaultsObservation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tgeisse/UserDefaultsObservation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34A8007E2BB48786003323DB /* UserDefaultsObservation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34A8007D2BB48786003323DB /* XCRemoteSwiftPackageReference "UserDefaultsObservation" */;
+			productName = UserDefaultsObservation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34A800412BB48764003323DB /* Project object */;
 }
